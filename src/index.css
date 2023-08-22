@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.btn {
+  border: none;
+  padding: 5px 10px;
+  color: #FFF;
+  border-radius: 3px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: blue;
+  text-decoration: none;
+}
+
+
+
+.delete {
+  background-color: red;
+  text-decoration: none;
+}
+
+
+.craete {
+  display: inline-block;
+  margin: 0 0 10px 0 !important;
+  background-color: rgb(168, 218, 32);
+  text-decoration: none;
+
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formSection h3 {
+  margin: 0;
+}
+
+.formSection>form {
+
+  border: solid 1px #CCC;
+  align-items: center;
+  display: block;
+  padding: 20px;
+}
+
+.inputbox {
+  width: 100%;
+  padding: 6px;
+  border: solid 1px #575757;
+}
+
+.inputSection label {
+  display: block;
+}
+
+.inputbox:focus {
+  outline: none;
+}
+
+.inputSection .btn {
+  background-color: blueviolet;
+  margin: 10px 0 0;
+
+}
